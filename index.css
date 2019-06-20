@@ -1,0 +1,99 @@
+body {
+	background-color: #43494D;
+	font-family: 'Source Sans Pro';
+	margin-top: 60px;
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+h3 {
+	color: white;
+	font-weight: normal;
+	margin-left: 20px;
+	font-size: 18px;
+}
+#head {
+	display: flex;
+	align-items: stretch;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+}
+#mapid {
+	width: 80vw;
+	height: 80vh;
+	margin-top: 40px;
+}
+div {
+	margin: auto;
+
+}
+#weather {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+article {
+	background-color: #34393D;
+	height: 70px;
+	width: 150px;
+	text-align: center; 
+}
+@media (min-width: 1px) and (max-width: 767px){
+	h1 {
+		color: white;
+		text-align: center;
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 10px;
+	}
+	#head {
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+	}
+	#weather {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 769px){
+	h1 {
+		color: white;
+		text-align: center;
+		font-size: 35px;
+	}
+	h3 {
+		font-size: 15px;
+	}
+	#head {
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+	}
+	#weather {
+		font-size: 14px;
+	}
+
+}
+@media screen and (min-width: 1025px){
+	h1 {
+		color: white;
+		text-align: center;
+		font-size: 45px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	#head {
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+	}
+	#weather {
+		font-size: 14px;
+	}
+}
